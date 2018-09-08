@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Gpa_cal</string>
+
+    <string-array name="credit">
+
+        <item>""</item>
+        <item>A+</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>E</item>
+
+
+    </string-array>
+
+
+
+
+
+</resources>

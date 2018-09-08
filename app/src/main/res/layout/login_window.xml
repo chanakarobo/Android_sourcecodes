@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4690f9">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your Course"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#ffff"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HNDSE"
+        android:background="@drawable/graphicbtn"
+        android:textSize="18dp"
+        android:id="@+id/btnhndse"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:onClick="clickhndse" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HNDCBIS"
+        android:background="@drawable/graphicbtn"
+        android:textSize="18dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/btnbis"
+        android:layout_below="@+id/btnhndse"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickbis" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DCSD"
+        android:background="@drawable/graphicbtn"
+        android:textSize="18dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/btndcsd"
+        android:layout_below="@+id/btnbis"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickdcsd" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DSE"
+        android:textSize="18dp"
+        android:background="@drawable/graphicbtn"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/btnse"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/btndcsd"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickdse" />
+
+</RelativeLayout>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.chanaka.gpa_cal.Login">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Management Practices"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView15"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bmp"
+        android:layout_marginLeft="80dp"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_toRightOf="@+id/textView15"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Structures and "
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bdsa"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_alignLeft="@+id/spin_bmp"
+        android:layout_alignStart="@+id/spin_bmp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Engineering "
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bse"
+        android:layout_alignTop="@+id/textView17"
+        android:layout_alignLeft="@+id/spin_bdsa"
+        android:layout_alignStart="@+id/spin_bdsa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Security"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bss"
+        android:layout_alignTop="@+id/textView18"
+        android:layout_alignLeft="@+id/spin_bse"
+        android:layout_alignStart="@+id/spin_bse" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advance Database"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bad"
+        android:layout_alignTop="@+id/textView19"
+        android:layout_alignLeft="@+id/spin_bss"
+        android:layout_alignStart="@+id/spin_bss" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Architecture"
+        android:id="@+id/textView20"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bca"
+        android:layout_alignTop="@+id/textView20"
+        android:layout_alignLeft="@+id/spin_bse"
+        android:layout_alignStart="@+id/spin_bse" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enterprise Application"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bea"
+        android:layout_alignTop="@+id/textView21"
+        android:layout_alignLeft="@+id/spin_bca"
+        android:layout_alignStart="@+id/spin_bca" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Quality"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView22"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bsq"
+        android:layout_alignTop="@+id/textView22"
+        android:layout_alignLeft="@+id/spin_bad"
+        android:layout_alignStart="@+id/spin_bad" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Warehousing"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bdw"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_alignLeft="@+id/spin_bsq"
+        android:layout_alignStart="@+id/spin_bsq" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Application "
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bma"
+        android:layout_alignTop="@+id/textView24"
+        android:layout_alignLeft="@+id/spin_bdw"
+        android:layout_alignStart="@+id/spin_bdw" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Statistics for "
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bs"
+        android:layout_alignTop="@+id/textView25"
+        android:layout_alignLeft="@+id/spin_bsq"
+        android:layout_alignStart="@+id/spin_bsq" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operational Research "
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bor"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_alignLeft="@+id/spin_bs"
+        android:layout_alignStart="@+id/spin_bs" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Project "
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView27"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bsp"
+        android:layout_alignTop="@+id/textView27"
+        android:layout_alignLeft="@+id/spin_bma"
+        android:layout_alignStart="@+id/spin_bma" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Industrial Training"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:id="@+id/textView29"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView27" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_bit"
+        android:layout_alignTop="@+id/textView29"
+        android:layout_alignLeft="@+id/spin_bsp"
+        android:layout_alignStart="@+id/spin_bsp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:id="@+id/btn_bcal"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="calbisresult" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btext"
+        android:textColor="#fff"
+        android:inputType="none"
+        android:editable="false"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView22"
+        android:layout_toEndOf="@+id/textView22" />
+
+
+</RelativeLayout>>
+
+</ScrollView>
